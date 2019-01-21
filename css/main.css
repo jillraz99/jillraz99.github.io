@@ -27,7 +27,7 @@ main,
 footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 960px;
+    max-width: 760px;
 }
 
 header,
@@ -39,7 +39,7 @@ footer a {
 }
 
 header img {
-    width: 800;
+    width: 350px;
     height: auto;
     float: right;
 }
