@@ -1,27 +1,18 @@
  @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|News+Cycle");
 
- .gridarea {
-     display: grid;
-     grid-gap: 7px;
-     max-width: 760px;
-     margin: 0 auto;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-areas:
-         "header"
-         "nav"
-         "main"
-         "footer";
- }
+ 
 
  body {
      font-family: 'News Cycle', Ariel, sans-serif;
      font-size: 14px;
+     max-width: 300px;
  }
 
  /* Banner Styles*/
  .banner {
      background-color: #5E8E1A;
      text-align: center;
+     grid-area: header;
  }
 
  .logo-image {
@@ -42,6 +33,7 @@
  nav {
      background-color: #3A5A05;
      text-align: right;
+     grid-area: nav;
      }
 .dropbtn {
     background-color: #2F303F;
@@ -121,8 +113,17 @@
      font-size: 20px;
  }
 
+ .city {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-gap: 5px;
+         padding: 5px;
+         grid-area: main;
+     }
+
  /*Footer Styles*/
  #footersec {
      color: #CEDDF0;
      background-color: #2F303F;
+     grid-area: footer;
  }
