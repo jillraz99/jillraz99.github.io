@@ -1,11 +1,5 @@
  @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|News+Cycle");
 
- .clearfix::after {
-     content: "";
-     clear: both;
-     display: table;
- }
-
  .gridarea {
      display: grid;
      grid-gap: 7px;
@@ -31,32 +25,67 @@
  }
 
  .logo-image {
-     position: relative;
-     left: 8px;
-     top: 15px;
+     float: left;
      width: 60px;
      height: auto;
+     padding: 10px
  }
 
  .motto {
      font-family: "News Cycle", Ariel, sans-serif;
-     font-size: 16px;
+     font-size: 12px;
      font-style: italic;
-     color: #744F2D;
+     color: black;
  }
 
  /* Navigation Styles*/
  nav {
      background-color: #3A5A05;
      text-align: right;
-     margin-top: -100px;
- }
+     }
+.dropbtn {
+    background-color: #2F303F;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
  nav a {
      color: #CEDDF0;
-     line-height: 2em;
-     text-decoration: none;
- }
+     }
 
  nav a:hover {
      color: #e03618;
@@ -64,11 +93,10 @@
  }
 
  nav li {
-     font-size: 1.2em;
+     font-size: 16px;
      font-family: 'Julius Sans One', sans-serif;
-     list-style-type: none;
-     display: inline-block;
-     padding: 10px;
+         display: inline-block;
+     padding: 16px;
      font-weight: bold;
      text-transform: uppercase;
      letter-spacing: 2px;
@@ -79,9 +107,7 @@
  h1 {
      color: white;
      font-family: 'Julius Sans One', sans-serif;
-     line-height: .2em;
-     padding-top: 1em;
-     font-size: 30px;
+     font-size: 25px;
  }
 
  h2 {
