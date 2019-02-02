@@ -6,20 +6,48 @@
      display: table;
  }
 
+ .gridarea {
+     display: grid;
+     grid-gap: 7px;
+     max-width: 760px;
+     margin: 0 auto;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-areas:
+         "header"
+         "nav"
+         "main"
+         "footer";
+ }
+
  body {
      font-family: 'News Cycle', Ariel, sans-serif;
      font-size: 14px;
  }
 
+ /* Banner Styles*/
+ .banner {
+     background-color: #5E8E1A;
+     text-align: center;
+ }
+
+ .logo-image {
+     position: relative;
+     left: 8px;
+     top: 15px;
+     width: 60px;
+     height: auto;
+ }
+
  .motto {
      font-family: "News Cycle", Ariel, sans-serif;
      font-size: 16px;
-     font-weight: bold;
+     font-style: italic;
+     color: #744F2D;
  }
 
  /* Navigation Styles*/
  nav {
-     background-color: #2F303F;
+     background-color: #3A5A05;
      text-align: right;
      margin-top: -100px;
  }
@@ -29,7 +57,6 @@
      line-height: 2em;
      text-decoration: none;
  }
-
 
  nav a:hover {
      color: #e03618;
@@ -48,18 +75,9 @@
      color: #CEDDF0;
  }
 
- .logo-image {
-     position: relative;
-     left: 8px;
-     top: 15px;
-     border-collapse: separate;
-     border-radius: 12px;
-     border: 3px solid darkgrey;
- }
-
  /*Heading Styles*/
  h1 {
-     color: #3A5A05;
+     color: white;
      font-family: 'Julius Sans One', sans-serif;
      line-height: .2em;
      padding-top: 1em;
