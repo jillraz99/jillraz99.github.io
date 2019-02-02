@@ -1,10 +1,21 @@
- @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|News+Cycle"rel="stylesheet");
+ @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|News+Cycle");
+
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
 
  body {
      font-family: 'News Cycle', Ariel, sans-serif;
+     font-size: 14px;
  }
 
- .motto {}
+ .motto {
+     font-family: "News Cycle", Ariel, sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+ }
 
  /* Navigation Styles*/
  nav {
@@ -34,7 +45,7 @@
      font-weight: bold;
      text-transform: uppercase;
      letter-spacing: 2px;
-     color: #CEDDF0
+     color: #CEDDF0;
  }
 
  .logo-image {
@@ -43,7 +54,7 @@
      top: 15px;
      border-collapse: separate;
      border-radius: 12px;
-     border: 3px solid darkgrey
+     border: 3px solid darkgrey;
  }
 
  /*Heading Styles*/
@@ -58,10 +69,16 @@
  h2 {
      color: #744F2D;
      font-family: "Julius Sans One", sans-serif;
-     font-size: 25px
+     font-size: 25px;
  }
 
  h3 {
-      font-family: "Julius Sans One", sans-serif;
-      font-size: 20px;
+     font-family: "Julius Sans One", sans-serif;
+     font-size: 20px;
+ }
+
+ /*Footer Styles*/
+ #footersec {
+     color: #CEDDF0;
+     background-color: #2F303F;
  }
