@@ -1,0 +1,67 @@
+ @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|News+Cycle"rel="stylesheet");
+
+ body {
+     font-family: 'News Cycle', Ariel, sans-serif;
+ }
+
+ .motto {}
+
+ /* Navigation Styles*/
+ nav {
+     background-color: #2F303F;
+     text-align: right;
+     margin-top: -100px;
+ }
+
+ nav a {
+     color: #CEDDF0;
+     line-height: 2em;
+     text-decoration: none;
+ }
+
+
+ nav a:hover {
+     color: #e03618;
+     background-color: #dde1e3;
+ }
+
+ nav li {
+     font-size: 1.2em;
+     font-family: 'Julius Sans One', sans-serif;
+     list-style-type: none;
+     display: inline-block;
+     padding: 10px;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #CEDDF0
+ }
+
+ .logo-image {
+     position: relative;
+     left: 8px;
+     top: 15px;
+     border-collapse: separate;
+     border-radius: 12px;
+     border: 3px solid darkgrey
+ }
+
+ /*Heading Styles*/
+ h1 {
+     color: #3A5A05;
+     font-family: 'Julius Sans One', sans-serif;
+     line-height: .2em;
+     padding-top: 1em;
+     font-size: 30px;
+ }
+
+ h2 {
+     color: #744F2D;
+     font-family: "Julius Sans One", sans-serif;
+     font-size: 25px
+ }
+
+ h3 {
+      font-family: "Julius Sans One", sans-serif;
+      font-size: 20px;
+ }
