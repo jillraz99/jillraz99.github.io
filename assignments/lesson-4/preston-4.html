@@ -2,56 +2,82 @@
 <html lang="en">
 
 <head>
-    <title>Southeast Idaho Happenings Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=>
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="css/small-4.css">
-
-    <!-- import the webpage's javascript file -->
-    <script src=></script>
-
+    <title>Southeast Idaho Happenings |Town of Preston | Weather and More</title>
+    <meta name="description" content="Weather page and community info for the town of Preston, Idaho.">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One%7CNews+Cycle" rel="stylesheet">
+    <link href="css/small-4.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class="gridarea">
-        <header>
-            <div class="banner">
-                <img class="logo-image" src="images/weather-logo.png" alt="Weather Logo">
-                <h1>Southeast Idaho Happenings</h1>
-                <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
-            </div>
+    <header>
+        <img src="images/weather-logo.png" alt="Site Logo">
+        <div class="banner">
+            <h1>Southeast Idaho Happenings</h1>
+            <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+        </div>
+    </header>
 
-            <nav>
-                <div class="dropdown">
-                    <button class="dropbtn">Menu</button>
-                    <div class="dropdown-content">
-                        <ul>
-                            <li><a href="">Preston</a></li>
-                            <li><a href="">Soda Springs</a></li>
-                            <li><a href="">Fish Haven</a></li>
-                            <li><a href="">Storm Center</a></li>
-                            <li><a href="">Gallery</a></li>
-                        </ul>
-                    </div>
-            </nav>
-        </header>
-        <main>
-            <section class="city">
-                <h2>Preston</h2>
-                <p>Section content here</p>
-                <div class="weather-summary">Weather <br>Summary</div>
-                <article>
-                    <h3>Article Title</h3>
-                    <p id="Author">Author Name</p>
-                    <p>Article content here</p>
-                </article>
+    <nav>
+        <ul class="navibar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="town">
+            <h2>Preston</h2>
+            <img src="#" alt="Preston town image" class="town-img">
+            <p>Section content here</p>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <div class="weather-info">
+                </div>
             </section>
-            <section id="footersec">
-                <footer>Section Footer</footer>
-            </section>
-        </main>
-    </section>
+        </div>
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="#" alt="snow image" class="forecast-image"><br>23&deg;F</td>
+                        <td><img src="#" alt="sunny image" class="forecast image"><br>19&deg;F</td>
+                        <td><img src="#" alt="sunny image" class="forecast image"><br>26&deg;F</td>
+                        <td><img src="#" alt="sunny image" class="forecast image"><br>28&deg;F</td>
+                        <td><img src="#" alt="sunny image" class="forecast image"><br>29&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article class="town-article">
+            <h3>Article Title</h3>
+            <p id="author">Author Name</p>
+            <p>Article content here</p>
+        </article>
+        </section>
+    </main>
+
+    <div class="contact-info">Contact Info
+    </div>
+    
+    <footer <p class="footer">&copy;2019 Southeast Idaho Happenings | Attributions | Jill Rasmussen<br>
+        </p>
+    </footer>
 </body>
