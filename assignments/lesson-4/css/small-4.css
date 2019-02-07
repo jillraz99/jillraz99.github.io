@@ -1,129 +1,84 @@
-
-
- 
-
- body {
-     font-family: 'News Cycle', Ariel, sans-serif;
-     font-size: 14px;
-     max-width: 300px;
- }
-
- /* Banner Styles*/
- .banner {
-     background-color: #5E8E1A;
-     text-align: center;
-     grid-area: header;
- }
-
- .logo-image {
-     float: left;
-     width: 60px;
-     height: auto;
-     padding: 10px
- }
-
- .motto {
-     font-family: "News Cycle", Ariel, sans-serif;
-     font-size: 12px;
-     font-style: italic;
-     color: black;
- }
-
- /* Navigation Styles*/
- nav {
-     background-color: #3A5A05;
-     text-align: right;
-     grid-area: nav;
-     }
-.dropbtn {
-    background-color: #2F303F;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+body {
+    font-family: 'News Cycle', Ariel, sans-serif;
+    font-size: 14px;
+    width: 100%;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+/* Banner Styles*/
+.banner {
+    background-color: #5E8E1A;
+    text-align: center;
+    grid-area: header;
 }
 
-.dropdown-content a {
+.logo-image {
+    float: left;
+    width: 60px;
+    height: auto;
+    padding: 10px
+}
+
+.motto {
+    font-family: "News Cycle", Ariel, sans-serif;
+    font-size: 12px;
+    font-style: italic;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+/* Navigation Styles*/
+.navibar {
+    background-color: #3A5A05;
+    text-align: right;
+    grid-area: nav;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+nav a {
+    color: #CEDDF0;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+nav a:active {
+    background-color: #5abef0;
 }
- nav a {
-     color: #CEDDF0;
-     }
 
- nav a:hover {
-     color: #e03618;
-     background-color: #dde1e3;
- }
+nav li {
+    font-size: 16px;
+    font-family: 'Julius Sans One', sans-serif;
+    display: inline-block;
+    padding: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #CEDDF0;
+}
 
- nav li {
-     font-size: 16px;
-     font-family: 'Julius Sans One', sans-serif;
-         display: inline-block;
-     padding: 16px;
-     font-weight: bold;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: #CEDDF0;
- }
+/*Heading Styles*/
+h1 {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+}
 
- /*Heading Styles*/
- h1 {
-     color: white;
-     font-family: 'Julius Sans One', sans-serif;
-     font-size: 25px;
- }
+h2 {
+    color: #744F2D;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 25px;
+}
 
- h2 {
-     color: #744F2D;
-     font-family: "Julius Sans One", sans-serif;
-     font-size: 25px;
- }
+h3 {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 20px;
+}
 
- h3 {
-     font-family: "Julius Sans One", sans-serif;
-     font-size: 20px;
- }
-
- .city {
-         display: grid;
-         grid-template-columns: 1fr;
-         grid-gap: 5px;
-         padding: 5px;
-         grid-area: main;
-     }
-
- /*Footer Styles*/
- #footersec {
-     color: #CEDDF0;
-     background-color: #2F303F;
-     grid-area: footer;
- }
+/*Footer Styles*/
+#footersec {
+    color: #CEDDF0;
+    background-color: #2F303F;
+    grid-area: footer;
+}
