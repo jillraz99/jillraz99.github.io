@@ -1,81 +1,104 @@
+/*
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-
+*/
 body {
     font-family: 'News Cycle', Ariel, sans-serif;
     font-size: 14px;
-    width: 100%;
+   
 }
 
 /* Banner Styles*/
-.banner {
+header {
     background-color: #5E8E1A;
     text-align: center;
     grid-area: header;
 }
+main {
+    grid-area: main;
+}
 
 .logo-image {
-    float: left;
-    width: 60px;
+    width: 7rem;
     height: auto;
-    padding: 10px
+       margin: 8px 8px 0px 10px;
+    float: left;
+
 }
 
 .motto {
     font-family: "News Cycle", Ariel, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     font-style: italic;
     color: black;
+    float: clear
+
 }
 
 /* Navigation Styles*/
-.navibar {
-    background-color: #3A5A05;
-    text-align: right;
-    grid-area: nav;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+       background-color: #f1f1f1;
+}
+li {
+    text-align: center;
+     border-bottom: 1px solid #555;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+ }
+
+li a.active {
+    background-color: rgb(76, 168, 175);
+    color: white;
 }
 
-nav a {
-    color: #CEDDF0;
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
-
-nav a:active {
-    background-color: #5abef0;
-}
-
-nav li {
-    font-size: 16px;
-    font-family: 'Julius Sans One', sans-serif;
-    display: inline-block;
-    padding: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #CEDDF0;
-}
-
 /*Heading Styles*/
 h1 {
     color: white;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 25px;
+    font-size: 2em;
+    padding: 10px;
 }
 
 h2 {
     color: #744F2D;
     font-family: "Julius Sans One", sans-serif;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 h3 {
     font-family: "Julius Sans One", sans-serif;
-    font-size: 20px;
+    font-size: 1em;
 }
 
+.town {
+        margin-right: auto;
+        margin-left: auto;
+}
+.town-img {
+        width: 22rem;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+.forecast {
+    display: none;
+}
 /*Footer Styles*/
 #footersec {
     color: #CEDDF0;

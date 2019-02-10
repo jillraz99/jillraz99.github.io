@@ -11,73 +11,74 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/weather-logo.png" alt="Site Logo">
-        <div class="banner">
-            <h1>Southeast Idaho Happenings</h1>
-            <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
-        </div>
-    </header>
+    <section class="gridarea">
+        <header>
+            <img class="logo-image" src="images/weather-logo.png" alt="Site Logo">
+            <div class="banner">
+                <h1>Southeast Idaho Happenings</h1>
+                <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+            </div>
+        </header>
 
-    <nav>
-        <ul class="navibar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="navibar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
 
-    <main>
-        <div class="town">
-            <h2>Preston</h2>
-            <img src="#" alt="Preston town image" class="town-img">
-            <p>Section content here</p>
-            <section class="weather-summary">
-                <h3>Weather Summary</h3>
-                <div class="weather-info">
-                </div>
+        <main>
+            <div class="town">
+                <h2>Preston</h2>
+                <img src="images/preston-town-img.jpg" alt="Preston town image" class="town-img">
+                <p>Section content here</p>
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <div class="weather-info">
+                    </div>
+                </section>
+            </div>
+            <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/snow-icon.png" alt="snow image" class="forecast-image"><br>23&deg;F</td>
+                            <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast image"><br>19&deg;F</td>
+                            <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast image"><br>26&deg;F</td>
+                            <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast image"><br>28&deg;F</td>
+                            <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast image"><br>29&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
+
+            <article class="town-article">
+                <h3>Article Title</h3>
+                <p id="author">Author Name</p>
+                <p>Article content here</p>
+            </article>
+        </main>
+
+        <div class="contact-info">Contact Info
         </div>
-        <section class="forecast">
-            <h3>5 Day Forecast</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="#" alt="snow image" class="forecast-image"><br>23&deg;F</td>
-                        <td><img src="#" alt="sunny image" class="forecast image"><br>19&deg;F</td>
-                        <td><img src="#" alt="sunny image" class="forecast image"><br>26&deg;F</td>
-                        <td><img src="#" alt="sunny image" class="forecast image"><br>28&deg;F</td>
-                        <td><img src="#" alt="sunny image" class="forecast image"><br>29&deg;F</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <article class="town-article">
-            <h3>Article Title</h3>
-            <p id="author">Author Name</p>
-            <p>Article content here</p>
-        </article>
-        </section>
-    </main>
-
-    <div class="contact-info">Contact Info
-    </div>
-    
-    <footer <p class="footer">&copy;2019 Southeast Idaho Happenings | Attributions | Jill Rasmussen<br>
-        </p>
-    </footer>
+        <footer <p class="footer">&copy;2019 Southeast Idaho Happenings | Attributions | Jill Rasmussen<br>
+            </p>
+        </footer>
+    </section>
 </body>
