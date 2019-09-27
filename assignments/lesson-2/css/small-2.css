@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 /* phone or baseline views*****************************/
@@ -17,6 +17,7 @@ h2 {
 main {
     display: grid;
     grid-template-columns: 1 fr;
+    font-size: 0.8rem;
 
 }
 
