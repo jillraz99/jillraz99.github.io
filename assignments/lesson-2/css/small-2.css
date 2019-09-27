@@ -16,7 +16,7 @@ h2 {
 main {
     display: grid;
     grid-template-columns: 1 fr;
-    font-size: 0.8rem;
+    
 }
 
 main section {
