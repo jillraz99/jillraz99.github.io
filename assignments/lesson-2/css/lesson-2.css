@@ -33,6 +33,11 @@ main section {
     main {
         grid-template-columns: 1fr 1fr;
     }
+    main section img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
 }
 
 
