@@ -3,18 +3,16 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-header,
-footer {
+header {
     background-color: #CEDDF0;
     display: flex;
-   
+
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
 
-header,
-nav,
+
 main,
 footer {
     max-width: 767px;
@@ -25,7 +23,7 @@ footer {
     width: 5rem;
     height: auto;
     margin: 2.5%;
-   }
+}
 
 .banner {
     display: flex;
@@ -38,8 +36,8 @@ footer {
 
 .motto {
     font-style: italic;
-     margin-left: 20px;
-  font-size: .9rem;
+    margin-left: 20px;
+    font-size: .9rem;
 }
 
 h1 {
@@ -100,23 +98,27 @@ nav a:hover {
 main {
     padding: 1rem;
 }
- .contentbox {
-     display: block;
-     margin: 10px auto;
-     border: 1px dashed #0000;
-     padding: 15px;
-     background-color: #eeee;
-     color: #4444;
-     font-style: italic;
- }
 
- * {
-     box-sizing: border-box;
-     line-height: 1.1em;
- }
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #0000;
+    padding: 15px;
+    background-color: #eeee;
+    color: #4444;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.1em;
+}
 
 footer {
-    flex: 0 1 100%;
+     background-color: #CEDDF0;
+    display: block;
     font-size: 0.8rem;
-
-}
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    justify-content: center;
+    }

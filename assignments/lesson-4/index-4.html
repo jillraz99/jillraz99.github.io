@@ -10,48 +10,49 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather%7COswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/small-4.css">
+    <link rel="stylesheet" href="css/medium-4.css">
     <link rel="stylesheet" href="css/large-4.css">
 </head>
 
 <body>
-        <header>
-            <img class="logo-image" src="images/weather-logo.png" alt="Site Logo">
-                <h1>Southeast Idaho Happenings</h1>
-                <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
-            </div>
-        </header>
+    <header>
+        <img class="logo-image" src="images/weather-logo.png" alt="Site Logo">
+        <section class="banner">
+            <h1>Southeast Idaho Happenings</h1>
+            <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+        </section>
+    </header>
 
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="index-4.html" class="active">Home</a></li>
-                <li><a href="preston-4.html">Preston</a></li>
-                <li><a href="soda-springs.html">Soda Springs</a></li>
-                <li><a href="fish-haven.html">Fish Haven</a></li>
-                <li><a href="storm-center.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h2>Your Home Away From Home</h2>
-            <p>Southeastern Idaho has many small towns that have a lot to offer visitors. Most people don't realize what
-                a treasure trove of outdoor activities and small town events these often forgotten towns have to offer!
-            </p>
-        </main>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index-4.html" class="active">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Your Home Away From Home</h2>
+        <p>Southeastern Idaho has many small towns that have a lot to offer visitors. Most people don't realize what
+            a treasure trove of outdoor activities and small town events these often forgotten towns have to offer!
+        </p>
+    </main>
 
-        <footer>
-            <p>&copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script> Jill Rasmussen | Nevada |
-                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
-            <p>Last Modified: <script>
-                    document.write(document.lastModified);
-                </script>
-            </p>
-        </footer>
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Jill Rasmussen | Nevada |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
 
-        <script src="js/toggleMenu-4.js"></script>
+    </footer>
+    <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu-4.js"></script>
 </body>
 
 </html>
