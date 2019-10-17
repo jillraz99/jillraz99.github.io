@@ -3,6 +3,14 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+aside {
+    background-color: rgb(250, 224, 78);
+   font-weight: bold;
+    padding: 1rem;
+    font-size: .75rem;
+ 
+}
+
 header {
     background-color: #CEDDF0;
     display: flex;
@@ -150,18 +158,19 @@ main {
 .town-article {
     background-color: rgb(189, 212, 157);
     padding: 10px 30px;
-   }
+}
 
 article img {
     display: block;
     width: 260px;
-      padding: 10px;
-      margin-left: auto;
-      margin-right: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .town-article p {
     line-height: 1em;
-   
+
 }
 
 #author {

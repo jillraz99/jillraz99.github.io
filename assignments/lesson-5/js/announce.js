@@ -1,10 +1,11 @@
 function announceFri() {
-    var str = document.getElementById("currentDate").nodeValue;
+    var date = new Date();
+    var day = date.getDay();
 
-    if (day == "Friday") {
-        document.getElementById("announce").style.display = "block"
+    if (day == 4) {
+        document.getElementById("announce").style.display = "block";
     }
     else {
-        document.getElementById("announce").style.display = "none"
+        document.getElementById("announce").style.display = "none";
     }
 }
