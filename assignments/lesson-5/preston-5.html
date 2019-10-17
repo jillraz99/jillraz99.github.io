@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/large-5.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+<onload="announceFri();"></onload>
+<aside id="announce">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</aside>
 
 <body>
     <header>
@@ -27,8 +29,8 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="index-4.html" class="active">Home</a></li>
-            <li><a href="preston-5.html">Preston</a></li>
+            <li><a href="index-4.html">Home</a></li>
+            <li><a href="preston-5.html" class="active">Preston</a></li>
             <li><a href="soda-springs.html">Soda Springs</a></li>
             <li><a href="fish-haven.html">Fish Haven</a></li>
             <li><a href="storm-center.html">Storm Center</a></li>
@@ -36,20 +38,58 @@
         </ul>
     </nav>
     <main>
-         <h2>The Town of Preston</h2>
-         <div class="town">
-             <img src="images/preston-town-img.jpg" alt="Preston town image" class="town-img">
-             <section class="weather-summary">
-                 <h3>Weather Summary</h3>
-                 <p>Currently: Snow</p>
-                 <p>Temperature: 23&deg;F</p>
-                 <p>Humidity: 80%</p>
-                 <p>Precipitation: 3 inches</p>
-                 <p>Wind Speed: 3mph</p>
-             </section>
-         </div>
-        <div class="contentbox">5 Day Forecast</div>
-        <div class="contentbox">Article</div>
+        <h2>The Town of Preston</h2>
+        <div class="town">
+            <img src="images/preston-town-img.jpg" alt="Preston town image" class="town-img">
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Snow</p>
+                <p>Temperature: 23&deg;F</p>
+                <p>Humidity: 80%</p>
+                <p>Precipitation: 3 inches</p>
+                <p>Wind Speed: 3mph</p>
+            </section>
+        </div>
+        <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/snow-icon.png" alt="snow image" class="forecast-image"><br>23&deg;F</td>
+                        <td><img src="images/weather-logo.png" alt="sunny image" class="forecast-image"><br>19&deg;F
+                        </td>
+                        <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast-image"><br>26&deg;F</td>
+                        <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast-image"><br>28&deg;F</td>
+                        <td><img src="images/sunny-icon.jpeg" alt="sunny image" class="forecast-image"><br>29&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <article class="town-article">
+            <img src="images/town-art-pic.jpg" alt="Billy Giles saves kittens pic">
+            <h3>Today's Angel</h3>
+            <p id="author">By Rasmus Jilligan</p>
+            <p>This is a great article about a young boy who showed great courage. On Saturday, April 19,
+                young Bill Giles came upon a litter of baby kittens. Thinking the mother must be around somewhere,
+                Billy did not think much of it, but when he heard nearby growling coming from the thicket close to
+                the little babies, he knew something must be amiss. With a large stick and nothing but boyhood
+                courage, Billy charged at the thicket yelling at the top of his lungs! A large badger scampered
+                away and Billy quickly took up all the kittens in his jacket and rushed them to safety, before the
+                old badger could change his mind and come back. Three cheers for Billy Giles! If anyone is
+                interested in adopting a kitten, please use the contact button at the bottom of this website to let
+                us know. Billy's mother is proud of her son, but not really interested in owning five new cats!</p>
+        </article>
         <div class="contentbox">Contact Information</div>
 
     </main>
@@ -64,7 +104,8 @@
 
     </footer>
     <script src="js/current-date.js"></script>
-    <script src="js/toggleMenu-4.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/announce.js"></script>
 </body>
 
 </html>

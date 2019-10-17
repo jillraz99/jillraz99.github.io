@@ -107,14 +107,6 @@ main {
     line-height: 1.1em;
 }
 
-footer {
-    background-color: #CEDDF0;
-    display: block;
-    font-size: 0.8rem;
-    padding: 1% 0% 1% 0%;
-    text-align: center;
-    justify-content: center;
-}
 
 /*Town styles*/
 .town {
@@ -128,28 +120,65 @@ footer {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 1rem;
 }
 
 .weather-summary {
 
     position: absolute;
-    top: 65px;
-    left: 50px;
+    width: 50%;
+    height: auto;
+    top: 10%;
+    left: 10%;
     background-color: #744F2D;
     opacity: .7;
     border: 1px solid #000;
-    padding: 1.5rem;
+    padding: .75rem;
     color: white;
+    font-size: 12px;
+    line-height: 1em;
     font-weight: bold;
     box-shadow: 0 0 30px #fff;
 }
 
-.contentbox {
+/*Forecast Styles*/
+.forecast {
+    display: none;
+}
+
+/*Article Styles*/
+.town-article {
+    background-color: rgb(189, 212, 157);
+    padding: 10px 30px;
+   }
+
+article img {
     display: block;
-    margin: 10px auto;
-    border: 1px dashed #0000;
-    padding: 15px;
-    background-color: #eeee;
-    color: #4444;
+    width: 260px;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+}
+.town-article p {
+    line-height: 1em;
+   
+}
+
+#author {
     font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #CEDDF0;
+    display: block;
+    font-size: 0.8rem;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
 }

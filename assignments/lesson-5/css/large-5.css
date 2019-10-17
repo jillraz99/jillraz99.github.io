@@ -1,10 +1,6 @@
 /**********************Media Query for Medium and Large Screens************/
 @media only screen and (min-width: 56em) {
-    .contentbox {
-        background-color: #ccc;
-    }
-
-    h1 {
+        h1 {
         font-size: 3rem;
     }
 
@@ -12,4 +8,7 @@
         width: 8rem;
         height: auto;
     }
+
+    .weather-summary {
+        width: 25%;
 }

@@ -29,12 +29,56 @@
         flex-flow: row;
     }
 
+    /*Town Styles*/
     .weather-summary {
-       
+       width: 30%;
     }
 
-    .contentbox {
-        background-color: #bed;
-    }
+    /*Forecast Styles*/
+.forecast {
+    display: block;
+    width: 100%;
+    padding: 10px;
+   }
 
+table {
+    width: 70%;
+    margin: 20px auto;
+    table-layout: auto;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center
+}
+
+.forecast-image {
+    width: 3rem;
+    height: auto;
+}
+
+.forecast th {
+    background-color: #3A5A05;
+    color: white;
+}
+ .forecast h3 {
+     text-align: center;
+ }
+
+/*Article styles*/
+article img {
+    width: 260px;
+    float: right;
+    padding: 10px;
+}
+
+   
 }
