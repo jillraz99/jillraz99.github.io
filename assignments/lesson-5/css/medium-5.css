@@ -1,9 +1,10 @@
 @media only screen and (min-width: 32.5em) {
 
     aside {
-       padding: 2rem;
-       font-size: 1.1rem;
+        padding: 2rem;
+        font-size: 1.1rem;
     }
+
     .logo-image {
         width: 6rem;
         height: auto;
@@ -36,54 +37,63 @@
 
     /*Town Styles*/
     .weather-summary {
-       width: 30%;
+        width: 30%;
     }
 
     /*Forecast Styles*/
-.forecast {
-    display: block;
-    width: 100%;
-    padding: 10px;
-   }
+    .forecast {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
 
-table {
-    width: 70%;
-    margin: 20px auto;
-    table-layout: auto;
-}
+    table {
+        width: 70%;
+        margin: 20px auto;
+        table-layout: auto;
+    }
 
-table,
-td,
-th {
-    border-collapse: collapse;
-    border: 1px solid black;
-}
+    table,
+    td,
+    th {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
 
-th,
-td {
-    padding: 10px;
-    text-align: center
-}
+    th,
+    td {
+        padding: 10px;
+        text-align: center
+    }
 
-.forecast-image {
-    width: 3rem;
-    height: auto;
-}
+    .forecast-image {
+        width: 3rem;
+        height: auto;
+    }
 
-.forecast th {
-    background-color: #3A5A05;
-    color: white;
-}
- .forecast h3 {
-     text-align: center;
- }
+    .forecast th {
+        background-color: #3A5A05;
+        color: white;
+    }
 
-/*Article styles*/
-article img {
-    width: 260px;
-    float: right;
-    padding: 10px;
-}
+    .forecast h3 {
+        text-align: center;
+    }
 
-   
+    /*Article styles*/
+    article img {
+        display: block;
+        width: 46%;
+        float: right;
+        padding: 10px;
+    }
+
+    .preston-map {
+        display: block;
+        float: right;
+        width: 37%;
+        
+      
+    }
+
 }

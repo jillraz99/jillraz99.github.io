@@ -128,7 +128,7 @@ main {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 1rem;
+  
 }
 
 .weather-summary {
@@ -156,13 +156,13 @@ main {
 
 /*Article Styles*/
 .town-article {
-    background-color: rgb(189, 212, 157);
+    border: solid 2px #744F2D;
     padding: 10px 30px;
 }
 
 article img {
     display: block;
-    width: 260px;
+    width: 88%;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -179,6 +179,25 @@ article img {
     margin: 0;
 }
 
+/*Contact Info Styles*/
+.contact-info {
+    background-color: #2F303F;
+    font-size: normal;
+    color: #fff;
+    padding: 2em;
+    line-height: .8em;
+    }
+
+    .social-icon {
+        width: 2em;
+        display: inline-block;
+    }
+
+    .preston-map {
+       display: none;
+    }
+
+
 footer {
     background-color: #CEDDF0;
     display: block;
@@ -189,5 +208,3 @@ footer {
 }
 
 
-
-}
