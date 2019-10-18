@@ -5,10 +5,10 @@ body {
 
 aside {
     background-color: rgb(250, 224, 78);
-   font-weight: bold;
+    font-weight: bold;
     padding: 1rem;
     font-size: .75rem;
- 
+
 }
 
 header {
@@ -85,7 +85,7 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: #744F2D;
+    background-color: #5E8E1a;
 }
 
 .active {
@@ -128,7 +128,7 @@ main {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-  
+
 }
 
 .weather-summary {
@@ -182,20 +182,19 @@ article img {
 /*Contact Info Styles*/
 .contact-info {
     background-color: #2F303F;
-    font-size: normal;
     color: #fff;
     padding: 2em;
     line-height: .8em;
-    }
+}
 
-    .social-icon {
-        width: 2em;
-        display: inline-block;
-    }
+.social-icon {
+    width: 2em;
+    display: inline-block;
+}
 
-    .preston-map {
-       display: none;
-    }
+.preston-map {
+    display: none;
+}
 
 
 footer {
@@ -206,5 +205,3 @@ footer {
     text-align: center;
     justify-content: center;
 }
-
-
