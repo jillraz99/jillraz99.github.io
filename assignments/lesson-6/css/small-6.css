@@ -112,10 +112,11 @@ nav a:hover {
 
 
 /*Town styles*/
-.town {
+div.town {
     display: block;
     margin: 10px auto;
     position: relative;
+   
 }
 
 .town-img {
@@ -123,6 +124,7 @@ nav a:hover {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 .weather-summary {
