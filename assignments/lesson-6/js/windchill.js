@@ -3,8 +3,8 @@
      *Output: The wind chill factor in Fahrenheit.
      */
 function doInputOutput() {
-    var tempF = parseFloat(document.getElementById("temperature").value);
-    var speed = parseFloat(document.getElementById("windspeed").value);
+    var tempF = parseFloat(document.getElementById("temperature").innerHTML);
+    var speed = parseFloat(document.getElementById("windspeed").innerHTML);
     var w = windChill(tempF, speed);
     document.getElementById('outputDiv').innerHTML = w;
 }
