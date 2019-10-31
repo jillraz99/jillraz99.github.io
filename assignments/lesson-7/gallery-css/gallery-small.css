@@ -1,0 +1,29 @@
+.container {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns:
+        1fr
+}
+
+main,
+footer {
+
+    max-width: 100%vw;
+    margin: initial;
+    padding: 10px;
+}
+
+container picture img {
+    width: 100% auto;
+    height: auto;
+    margin: 1em;
+
+}
+
+
+.container figcaption {
+font-size: smaller;
+padding-left: 2em;
+}
+
+

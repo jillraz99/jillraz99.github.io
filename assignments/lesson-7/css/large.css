@@ -1,0 +1,16 @@
+/**********************Media Query for Medium and Large Screens************/
+@media only screen and (min-width: 56em) {
+        h1 {
+        font-size: 3rem;
+    }
+
+    .logo-image {
+        width: 8rem;
+        height: auto;
+    }
+
+    .weather-summary {
+        width: 30%;
+        font-size: 14px;
+}
+}

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 32.5em) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .container picture img {
+        width: 50% auto;
+        height: auto;
+    }
+}

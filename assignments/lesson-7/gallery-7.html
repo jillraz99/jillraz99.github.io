@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery | Weather Site | CIT 230</title>
+    <meta name="description" content="Weather Site Planning Document for Lesson 3 CIT 230 Fall 2019">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather%7COswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="gallery-css/gallery-small.css">
+     <link rel="stylesheet" href="gallery-css/gallery-medium.css">
+      <link rel="stylesheet" href="gallery-css/gallery-large.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo-image" src="images/weather-logo.gif" alt="Site Logo">
+        <div class="banner">
+            <h1>Southeast Idaho Happenings</h1>
+            <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index-4.html">Home</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li><a href="gallery-7.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="container">
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/autumn.jpg" alt="autumn img">
+                <figcaption>Colorful autumn leaves</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/blizzard.jpg" alt="blizzard img">
+                <figcaption>Blizzard at night</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/cloudy.jpg" alt="cloudy img">
+                <figcaption>Sun rays breaking through the clouds</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/lightening.jpg" alt="lightening img">
+                <figcaption>A lightening storm in the foothills</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/rainbow.jpg" alt="rainbow img">
+                <figcaption>A double rainbow appears after a rainshower</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/sunny.jpg" alt="sunny img">
+                <figcaption>A field of sunflowers on a clear, sunny day</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/tornado.jpg" alt="tornado img">
+                <figcaption>A tornado threatens nearby town</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/windy.jpg" alt="windy img">
+                <figcaption>Field grass on a windy day</figcaption>
+                </figure>
+            </picture>
+            <picture>
+                <img src="images/placeholder500.gif" data-src="images/winter.jpg" alt="winter">
+                <figcaption>Frosted trees on riverbank on a winter day</figcaption>
+                </figure>
+            </picture>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Jill Rasmussen | Nevada |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
+
+    </footer>
+
+
+    <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/lazyLoad.js"></script>
+</body>
+
+</html>

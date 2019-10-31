@@ -1,22 +1,13 @@
 /*Input: Temperature and Wind Speed from computer.
- *Processing: Compute wind chill using temperature and wind speed.
- *Output: The wind chill factor in Fahrenheit.
- */
+     *Processing: Compute wind chill using temperature and wind speed.
+     *Output: The wind chill factor in Fahrenheit.
+     */
 function doInputOutput() {
     var tempF = parseFloat(document.getElementById("temperature").innerHTML);
     var speed = parseFloat(document.getElementById("windspeed").innerHTML);
-
-    //Determine if input values meet requirements
-    if ((tempF < 50) & (speed > 3)) {
-        var num = windChill(tempF, speed);
-        var w = num.toFixed(2);
-        document.getElementById('outputDiv').innerHTML = w;
-
-    } else {
-        document.getElementById('outputDiv').innerHTML = "N/A";
-    }
+    var w = windChill(tempF, speed);
+    document.getElementById('outputDiv').innerHTML = w;
 }
-
 
 //Compute and return the windchill factor with temperature
 //and wind speed.
