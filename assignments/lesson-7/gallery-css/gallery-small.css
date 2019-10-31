@@ -1,22 +1,23 @@
 .container {
-    margin: 1rem auto;
     display: grid;
-    grid-template-columns:
-        1fr
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+    overflow: auto;
+    resize: horizontal;
+    gap: 15px;
 }
 
 main,
 footer {
 
-    max-width: 100%vw;
+    max-width: 2000px;
     margin: initial;
     padding: 10px;
 }
 
 container picture img {
-    width: 100% auto;
-    height: auto;
-    margin: 1em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 }
 
