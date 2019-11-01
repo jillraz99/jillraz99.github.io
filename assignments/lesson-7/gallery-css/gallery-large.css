@@ -1,12 +1,5 @@
 @media only screen and (min-width: 56em) {
-    .container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .container picture img {
-        width: 33% auto;
-        height: auto;
-    }
+    
 
     .container picture img:hover {
         box-shadow: 0 0 50px #333;

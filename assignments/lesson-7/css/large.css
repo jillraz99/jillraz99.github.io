@@ -13,4 +13,8 @@
         width: 30%;
         font-size: 14px;
 }
+
+  .container figure img:hover {
+      box-shadow: 0 0 50px #333;
+  }
 }
