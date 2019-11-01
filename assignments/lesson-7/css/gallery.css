@@ -14,14 +14,12 @@ footer {
 
 figure img {
     width: 100%;
-   
-
-}
+ }
 
 
 .container figcaption {
 font-size: smaller;
-padding-left: 1em;
+
 }
 
 
@@ -34,4 +32,10 @@ figure img[data-src] {
 figure img {
     filter: blur(0em);
     transition: filter 0.8s;
+}
+ figure {
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 20px;
+margin-inline-end: 20px;
 }
