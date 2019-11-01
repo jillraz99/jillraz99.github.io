@@ -1,17 +1,18 @@
 .grid {
     display: grid;
-    grid-template-columns:repeat (5, 1fr);
     justify-content: center;
     grid-gap: 20px;
- }
+}
 
- /*Blur placeholder*/
- picture img [data-src] {
-filter: blur (0.2em);
- }
+/*Blur placeholder*/
+picture img[data-src] {
+    filter: blur(0.5em);
+}
 
- /*remove blur after .5sec to achieve loading effect*/
- picture img {
-     filter:blur (0em);
-     transition: filter 0.5s;
- }
+/*remove blur after .5sec to achieve loading effect*/
+picture img {
+    filter: blur(0em);
+    transition: filter 0.8s;
+}
+
+
