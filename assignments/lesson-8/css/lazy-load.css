@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+/*Blur placeholder*/
+picture img[data-src] {
+    filter: blur(0.5em);
+}
+
+/*remove blur after .5sec to achieve loading effect*/
+picture img {
+    filter: blur(0em);
+    transition: filter 0.8s;
+}
+
+
