@@ -44,8 +44,8 @@
                 <form method="get" action="thanks.html">
                     <fieldset>
                         <legend>User Information</legend>
-                        <label class="top">Full Name* <input type="text" name="name" minlength="5" pattern="[A-Za-z]" required></label>
-                               
+                        <label class="top">Full Name <input type="text" pattern="[A-Za-Z]{5,}" required></label>
+
                         <label class="top">Email <input type="email" name="email"
                                 placeholder="youremail@gmail.com"></label>
                         <label class="top">Phone* <input type="tel" name="phone" required></label>
@@ -57,7 +57,7 @@
 
                         <label class="top">Storm Date <input type="date" name="stormDate"></label>
 
-                        
+
 
                         <label class="top">Storm Type
                             <input list="stormType" name="storm">
@@ -72,9 +72,9 @@
                         </label>
 
                         <label class="top">Storm Severity (1 to 10): <span id="ratingvalue">5</span>
-                        <input type="range" value="5" min="1" max="10" step="1"
-                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        
+                            <input type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                                onchange="adjustRating(this.value)">
+
                         </label>
 
                         <label class="top">Storm Region
@@ -94,10 +94,11 @@
 
                     <fieldset>
                         <legend>Comments</legend>
-                        <textarea>Please include any additional information or comments here...</textarea>
+                        <lable><textarea name="comments">Please include any additional information or comments here...</textarea>
+                        </lable>
                     </fieldset>
 
-                    <input type="submit" value="Report Storm" class="submit-button">
+                    <input type="submit" name="submit" value="Report Storm" class="submit-button">
 
                 </form>
             </div>
