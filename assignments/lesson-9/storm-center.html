@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Storm Center | Weather Site | CIT 230</title>
+    <meta name="description" content="Storm Center Weather Site CIT 230 Fall 2019">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather%7COswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/storm-center.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="gridarea">
+        <header>
+            <img class="logo-image" src="images/weather-logo.gif" alt="Site Logo">
+            <div class="banner">
+                <h1>Southeast Idaho Happenings</h1>
+                <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="preston-7.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html" class="active">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Storm Center</h2>
+            <h3>Report a storm or unusual weather event in your area!</h3>
+            <div>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>User Information</legend>
+                        <label class="top">Full Name <input type="text" pattern="[A-Za-Z]{5,}" required></label>
+
+                        <label class="top">Email <input type="email" name="email"
+                                placeholder="youremail@gmail.com"></label>
+                        <label class="top">Phone* <input type="tel" name="phone" required></label>
+                        <label class="top">Zip Code* <input type="number" name="zip" required></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Storm Information</legend>
+
+                        <label class="top">Storm Date <input type="date" name="stormDate"></label>
+
+
+
+                        <label class="top">Storm Type
+                            <input list="stormType" name="storm">
+                            <datalist id="stormType">
+                                <option>Blizzard</option>
+                                <option>Flash Flood</option>
+                                <option>Hail</option>
+                                <option>Hurricane</option>
+                                <option>Thunderstorm</option>
+                                <option>Tornado</option>
+                            </datalist>
+                        </label>
+
+                        <label class="top">Storm Severity (1 to 10): <span id="ratingvalue">5</span>
+                            <input type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                                onchange="adjustRating(this.value)">
+                        </label>
+
+                        <label class="top">Storm Region
+                            <select name="region">
+                                <option value="">Select Region</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda">Soda Springs</option>
+                                <option value="fish">Fish Haven</option>
+                            </select>
+                        </label>
+
+                        <div>Are you in danger?</div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Comments</legend>
+                        <lable><textarea
+                                name="comments">Please include any additional information or comments here...</textarea>
+                        </lable>
+                    </fieldset>
+
+                    <input type="submit" name="submit" value="Report Storm" class="submit-button">
+
+                </form>
+            </div>
+
+
+
+        </main>
+        <footer>
+            <p>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Jill Rasmussen | Nevada |
+                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </p>
+            <div id="currentDate"></div>
+
+        </footer>
+        <script src="js/current-date.js"></script>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/ratingValue.js"></script>
+</body>
+
+</html>

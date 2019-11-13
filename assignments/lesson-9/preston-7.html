@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston | Weather Site | CIT 230</title>
+    <meta name="description" content="Weather Site Preston Idaho CIT 230 Fall 2019">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather%7COswald&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+
+<body onload="announceFri(),doInputOutput()">
+    <aside id="announce">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</aside>
+    <header>
+        <img class="logo-image" src="images/weather-logo.gif" alt="Site Logo">
+        <section class="banner">
+            <h1>Southeast Idaho Happenings</h1>
+            <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="preston-7.html" class="active">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>The Town of Preston</h2>
+        <div class="town">
+            <picture>
+                <source srcset="images/Franklin900.jpg" media="(min-width: 32.5em) and (max-width: 55em)">
+                <source srcset="images/Franklin1200.jpg" media="(min-width:55.1em)">
+                <img src="images/Franklin500.jpg" alt="Franklin Town Picture" class="town-img">
+            </picture>
+            <!---- <img src="images/preston-town-img.jpg" alt="Preston town image" class="town-img">-->
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Snow</p>
+                <p>Temperature: <span id="temperature">23</span>&deg;F</p>
+                <p>Humidity: 80%</p>
+                <p>Precipitation: 3 inches</p>
+                <p>Wind Speed: <span id="windspeed">15</span>mph</p>
+                <p>Wind Chill: <span id='outputDiv'></span>&deg;F
+                </p>
+            </section>
+        </div>
+        <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/snow-icon.gif" alt="snow image" class="forecast-image"><br>23&deg;F</td>
+                        <td><img src="images/weather-logo.gif" alt="sunny image" class="forecast-image"><br>19&deg;F
+                        </td>
+                        <td><img src="images/sunny-icon.gif" alt="sunny image" class="forecast-image"><br>26&deg;F</td>
+                        <td><img src="images/sunny-icon.gif" alt="sunny image" class="forecast-image"><br>28&deg;F</td>
+                        <td><img src="images/sunny-icon.gif" alt="sunny image" class="forecast-image"><br>29&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <article class="town-article">
+            <img src="images/town-art-pic.gif" alt="Billy Giles saves kittens pic">
+            <h3>Today's Angel</h3>
+            <p id="author">By Rasmus Jilligan</p>
+            <p>This is a great article about a young boy who showed great courage. On Saturday, April 19,
+                young Bill Giles came upon a litter of baby kittens. Thinking the mother must be around somewhere,
+                Billy did not think much of it, but when he heard nearby growling coming from the thicket close to
+                the little babies, he knew something must be amiss. With a large stick and nothing but boyhood
+                courage, Billy charged at the thicket yelling at the top of his lungs! A large badger scampered
+                away and Billy quickly took up all the kittens in his jacket and rushed them to safety, before the
+                old badger could change his mind and come back. Three cheers for Billy Giles! If anyone is
+                interested in adopting a kitten, please use the contact button at the bottom of this website to let
+                us know. Billy's mother is proud of her son, but not really interested in owning five new cats!</p>
+        </article>
+
+        <div class="contact-info">
+            <img src="images/preston-map.png" alt="Preston Map" class="preston-map">
+            <h3>Contact Info</h3>
+            <p>Southeast Idaho Happenings<br>
+                30N 1st E<br>
+                Preston, ID 83263</p>
+
+            <br>
+            <p>999-999-9999<br>
+                seidahohappenings.org</p>
+            <br>
+
+            <img src="images/facebook-icon.gif" alt="facebook icon" class="social-icon">
+            <img src="images/instagram-icon.gif" alt="instagram icon" class="social-icon">
+            <img src="images/twitter-icon.gif" alt="twitter icon" class="social-icon">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Jill Rasmussen | Nevada |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Merriweather', 'Oswald']
+            }
+        });
+    </script>
+    <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/announce.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>
