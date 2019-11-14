@@ -201,3 +201,34 @@ footer {
     text-align: center;
     justify-content: center;
 }
+
+/*Home Page Styles*/
+
+.towndata p {
+    font-size: 14px;
+}
+
+.towndata p:nth-child(2) {
+    font-style: italic;
+    font-weight: 600;
+    font-size: .8rem; 
+   margin-top: 0;
+}
+
+.towndata section {
+    margin-bottom: 2em;
+}
+
+.towndata h3 {
+    margin-bottom: 0;
+}
+
+.towndata {
+    background-color: #2F303F;
+    padding: 2rem;
+}
+
+.towndata section {
+    background-color: #CEDDF0;
+    padding: 1em;
+}
