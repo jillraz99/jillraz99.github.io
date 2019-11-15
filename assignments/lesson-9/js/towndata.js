@@ -7,7 +7,8 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
         const towns = jsonObject['towns'];
-       /* for (let i = [0]; i < towns.length; i++){
+        for (let i = [0]; i < towns.length; i++)
+        if (towns[i].name === "Fish Haven" || towns[i].name === "Preston" || towns[i].name === "Soda Springs"){
             
             let town = document.createElement('section');
             let h3 = document.createElement('h3');
@@ -34,7 +35,7 @@ fetch(requestURL)
             town.appendChild(p4);
             town.appendChild(image);
 
-            document.querySelector('div.towndata').appendChild(town);*/
+            document.querySelector('div.towndata').appendChild(town);
 
         }
     });
