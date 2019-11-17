@@ -204,6 +204,15 @@ footer {
 
 /*Home Page Styles*/
 
+#home {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.headerimg {
+    display: none;
+}
+
 .towndata p {
     font-size: 14px;
 }
@@ -212,22 +221,22 @@ footer {
     font-style: italic;
     font-weight: 600;
     font-size: .8rem;
-    margin-top: 0;
+    margin-top: .1em;
     color: #744F2D;
 }
 
 .towndata section {
-    margin-bottom: 2em;
+    margin: 2em;
 }
 
 .towndata h3 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
 }
 
 .towndata {
     background-color: #2F303F;
-    padding: 2rem;
+   padding: .3em 0 .3em 0;
 }
 
 .towndata section {
@@ -237,4 +246,5 @@ footer {
 
 .towndata img {
     width: 100%;
+    box-shadow: 0px 0px 10px 2px #000000;
 }

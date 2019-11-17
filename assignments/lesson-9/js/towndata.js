@@ -16,6 +16,7 @@ fetch(requestURL)
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
             let p4 = document.createElement('p');
+            let div = document.createElement('div');
             let image = document.createElement('img');
 
 
@@ -24,15 +25,16 @@ fetch(requestURL)
             p2.textContent = "Average Rainfall: " + towns[i].averageRainfall;
             p3.textContent = "Population: " + towns[i].currentPopulation;
             p4.textContent = "Year Founded: " + towns[i].yearFounded;
-            image.setAttribute('src', towns[i].photo);
+            image.setAttribute('src', 'images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name + 'img');
 
 
-            town.appendChild(h3);
-            town.appendChild(p1);
-            town.appendChild(p2);
-            town.appendChild(p3);
-            town.appendChild(p4);
+            div.appendChild(h3);
+            div.appendChild(p1);
+            div.appendChild(p2);
+            div.appendChild(p3);
+            div.appendChild(p4);
+            town.appendChild(div)
             town.appendChild(image);
 
             document.querySelector('div.towndata').appendChild(town);

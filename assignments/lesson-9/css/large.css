@@ -1,6 +1,6 @@
 /**********************Media Query for Medium and Large Screens************/
 @media only screen and (min-width: 56em) {
-        h1 {
+    h1 {
         font-size: 3rem;
     }
 
@@ -12,9 +12,90 @@
     .weather-summary {
         width: 30%;
         font-size: 14px;
-}
+    }
 
-  .container figure:hover {
-      box-shadow: 0 0 50px #333;
-  }
+    .container figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    /* Home Page styles*/
+
+    .towndata {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .towndata section {
+       grid-template-columns: 1fr;
+       grid-template-areas: "content" "image";
+
+    }
+
+    .towndata section div {
+        grid-area: content;
+        align-self: center;
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+
+    .towndata section img {
+        grid-area: image;
+    }
+
+    .towndata section:nth-child(2) {
+        grid-template-columns: 1fr;
+         grid-template-areas: "content" "image";
+
+       
+        text-align: left;
+       
+        
+
+    }
+
+   /* .towndata {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+
+    }
+
+    .towndata section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "content1 content2 content3"
+            "image1 image2 image3";
+    }
+
+    .towndata section:first-child {
+        grid-area: content1;
+    }
+
+    .towndata section img:first-child {
+        grid-area: image1;
+    }
+
+    .towndata section:nth-child(2) {
+       
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "content1 content2 content3"
+        "image1 image2 image3";
+         grid-area: content2;
+    }
+
+    .towndata section:nth-of-type(2) img {
+        grid-area: image2;
+    }
+
+    .towndata section:nth-of-type(3) div {
+        grid-area: content3;
+        
+    }
+
+    .towndata section:nth-of-type(3) img {
+        grid-area: image3;
+    }
+
 }
