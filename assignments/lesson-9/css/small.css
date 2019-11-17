@@ -248,3 +248,9 @@ footer {
     width: 100%;
     box-shadow: 0px 0px 10px 2px #000000;
 }
+
+.other img {
+    width: 50%;
+    align-items: center;
+    margin: 0 2em 0 2em;
+}
