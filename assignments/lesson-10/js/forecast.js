@@ -1,4 +1,4 @@
-const forecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=f7d7618a1ee4178c8cbd23e4094b697c"
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=f7d7618a1ee4178c8cbd23e4094b697c"
 
 fetch(forecastURL)
     .then(function (response) {
