@@ -38,139 +38,133 @@
         </nav>
         <main>
             <h2>The Town of Soda Springs</h2>
-             <div class="town">
-                 <picture>
-                     <source srcset="images/soda750.jpg" media="(min-width: 32.5em) and (max-width: 55em)">
-                     <source srcset="images/soda800.jpg" media="(min-width:55.1em)">
-                     <img src="images/soda500.jpg" alt="Soda Springs Town Picture" class="town-img">
-                 </picture>
-                 <!---- <img src="images/preston-town-img.jpg" alt="Preston town image" class="town-img">-->
-                 <section class="weather-summary">
-                     <h3>Weather Summary</h3>
-                     <p>Currently: <span id="current-cond"></span></p>
-                     <p>Temperature: <span id="temperature"></span>&deg;F</p>
-                     <p>Humidity: <span id="humidity"></span>&deg;</p>
-                     <p>Wind Speed: <span id="windspeed"></span> mph</p>
-                     <p>Wind Chill: <span id='outputDiv'></span>&deg;F
-                     </p>
-                 </section>
-             </div>
-             <div class="forecast">
-                 <h3>5 Day Forecast</h3>
-                 <table>
-                     <thead>
-                         <tr>
-                             <th id="wkday1"></th>
-                             <th id="wkday2"></th>
-                             <th id="wkday3"></th>
-                             <th id="wkday4"></th>
-                             <th id="wkday5"></th>
+            <div class="town">
+                <picture>
+                    <source srcset="images/soda750.jpg" media="(min-width: 32.5em) and (max-width: 55em)">
+                    <source srcset="images/soda800.jpg" media="(min-width:55.1em)">
+                    <img src="images/soda500.jpg" alt="Soda Springs Town Picture" class="town-img">
+                </picture>
+                <!---- <img src="images/preston-town-img.jpg" alt="Preston town image" class="town-img">-->
+                <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <p>Currently: <span id="current-cond"></span></p>
+                    <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                    <p>Humidity: <span id="humidity"></span>&deg;</p>
+                    <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                    <p>Wind Chill: <span id='chill'></span>&deg;F
+                    </p>
+                </section>
+            </div>
+            <div class="forecast">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="wkday1"></th>
+                            <th id="wkday2"></th>
+                            <th id="wkday3"></th>
+                            <th id="wkday4"></th>
+                            <th id="wkday5"></th>
 
-                         </tr>
-                     </thead>
-                     <tbody>
-                         <tr>
-                             <td><img id='icon1' class="forecast-image"><br><span id='temp1'></span>&deg;F
-                             </td>
-                             <td><img id='icon2' class="forecast-image"><br><span id='temp2'></span>&deg;F
-                             </td>
-                             <td><img id='icon3' class="forecast-image"><br><span id='temp3'></span>&deg;F</td>
-                             <td><img id='icon4' class="forecast-image"><br><span id='temp4'></span>&deg;F</td>
-                             <td><img id='icon5' class="forecast-image"><br><span id='temp5'></span>&deg;F</td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </div>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img id='icon1' class="forecast-image"><br><span id='temp1'></span>&deg;F
+                            </td>
+                            <td><img id='icon2' class="forecast-image"><br><span id='temp2'></span>&deg;F
+                            </td>
+                            <td><img id='icon3' class="forecast-image"><br><span id='temp3'></span>&deg;F</td>
+                            <td><img id='icon4' class="forecast-image"><br><span id='temp4'></span>&deg;F</td>
+                            <td><img id='icon5' class="forecast-image"><br><span id='temp5'></span>&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-             <article class="town-article">
-                 <img src="images/sstown-art-pic.jpg" alt="Local Farmers Market">
-                 <h3>Local Farmer's Market</h3>
-                 <p id="author">By Rasmus Jilligan</p>
-                 <p>New Content here. Need new picture too!!
+            <article class="town-article">
+                <img src="images/sstown-art-pic.jpg" alt="Local Farmers Market">
+                <h3>Local Farmer's Market</h3>
+                <p id="author">By Rasmus Jilligan</p>
+                <p>New Content here. Need new picture too!!
 
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                     et dolore magna aliqua. Duis tristique sollicitudin nibh sit amet commodo nulla. Tincidunt lobortis
-                     feugiat vivamus at augue eget arcu dictum varius. Sed viverra ipsum nunc aliquet bibendum. Quam
-                     nulla porttitor massa id neque aliquam vestibulum morbi blandit. Venenatis urna cursus eget nunc
-                     scelerisque viverra mauris. Id diam maecenas ultricies mi eget mauris pharetra et. Nunc pulvinar
-                     sapien et ligula ullamcorper malesuada proin libero nunc. Egestas fringilla phasellus faucibus
-                     scelerisque eleifend donec pretium. Suspendisse faucibus interdum posuere lorem ipsum dolor sit
-                     amet. Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur purus ut faucibus
-                     pulvinar
-                     elementum integer enim neque. Eu augue ut lectus arcu bibendum. Sed adipiscing diam donec
-                     adipiscing. Facilisi morbi tempus iaculis urna. Aliquam eleifend mi in nulla posuere sollicitudin
-                     aliquam. Amet facilisis magna etiam tempor orci eu lobortis. Sit amet est placerat in egestas erat
-                     imperdiet sed. Ac tortor vitae purus faucibus ornare.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Duis tristique sollicitudin nibh sit amet commodo nulla. Tincidunt lobortis
+                    feugiat vivamus at augue eget arcu dictum varius. Sed viverra ipsum nunc aliquet bibendum. Quam
+                    nulla porttitor massa id neque aliquam vestibulum morbi blandit. Venenatis urna cursus eget nunc
+                    scelerisque viverra mauris. Id diam maecenas ultricies mi eget mauris pharetra et. Nunc pulvinar
+                    sapien et ligula ullamcorper malesuada proin libero nunc. Egestas fringilla phasellus faucibus
+                    scelerisque eleifend donec pretium. Suspendisse faucibus interdum posuere lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur purus ut faucibus
+                    pulvinar
+                    elementum integer enim neque. Eu augue ut lectus arcu bibendum. Sed adipiscing diam donec
+                    adipiscing. Facilisi morbi tempus iaculis urna. Aliquam eleifend mi in nulla posuere sollicitudin
+                    aliquam. Amet facilisis magna etiam tempor orci eu lobortis. Sit amet est placerat in egestas erat
+                    imperdiet sed. Ac tortor vitae purus faucibus ornare.
 
-                     Non arcu risus quis varius quam quisque id diam. Vestibulum lorem sed risus ultricies tristique
-                     nulla aliquet. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Id diam maecenas
-                     ultricies mi eget mauris pharetra. Quisque id diam vel quam elementum. Blandit volutpat maecenas
-                     volutpat blandit aliquam etiam erat velit. Ullamcorper dignissim cras tincidunt lobortis feugiat
-                     vivamus at. Pretium vulputate sapien nec sagittis aliquam. Nec ultrices dui sapien eget mi proin
-                     sed
-                     libero enim. Libero enim sed faucibus turpis. Enim diam vulputate ut pharetra sit amet aliquam id.
-                     Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Sapien nec sagittis
-                     aliquam
-                     malesuada bibendum arcu vitae. Tristique risus nec feugiat in fermentum posuere urna nec. Tristique
-                     senectus et netus et malesuada fames ac turpis.
+                    Non arcu risus quis varius quam quisque id diam. Vestibulum lorem sed risus ultricies tristique
+                    nulla aliquet. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Id diam maecenas
+                    ultricies mi eget mauris pharetra. Quisque id diam vel quam elementum. Blandit volutpat maecenas
+                    volutpat blandit aliquam etiam erat velit. Ullamcorper dignissim cras tincidunt lobortis feugiat
+                    vivamus at. Pretium vulputate sapien nec sagittis aliquam. Nec ultrices dui sapien eget mi proin
+                    sed
+                    libero enim. Libero enim sed faucibus turpis. Enim diam vulputate ut pharetra sit amet aliquam id.
+                    Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Sapien nec sagittis
+                    aliquam
+                    malesuada bibendum arcu vitae. Tristique risus nec feugiat in fermentum posuere urna nec. Tristique
+                    senectus et netus et malesuada fames ac turpis.
 
-                     Nisl vel pretium lectus quam id leo in vitae turpis. Et ultrices neque ornare aenean. Lectus magna
-                     fringilla urna porttitor rhoncus dolor purus non. Quis enim lobortis scelerisque fermentum. Ac
-                     turpis egestas maecenas pharetra. Dictumst quisque sagittis purus sit amet. Varius sit amet mattis
-                     vulputate enim nulla. A arcu cursus vitae congue mauris. Porttitor eget dolor morbi non arcu risus
-                     quis varius. Tristique senectus et netus et malesuada fames.
-                 </p>
-             </article>
+                    Nisl vel pretium lectus quam id leo in vitae turpis. Et ultrices neque ornare aenean. Lectus magna
+                    fringilla urna porttitor rhoncus dolor purus non. Quis enim lobortis scelerisque fermentum. Ac
+                    turpis egestas maecenas pharetra. Dictumst quisque sagittis purus sit amet. Varius sit amet mattis
+                    vulputate enim nulla. A arcu cursus vitae congue mauris. Porttitor eget dolor morbi non arcu risus
+                    quis varius. Tristique senectus et netus et malesuada fames.
+                </p>
+            </article>
 
-             <div class="contact-info">
-                 <img src="images/sodasprings-map.gif" alt="Soda Springs Map" class="preston-map">
-                 <h3>Contact Info</h3>
-                 <p>Southeast Idaho Happenings<br>
-                     30N 1st E<br>
-                     Preston, ID 83263</p>
+            <div class="contact-info">
+                <img src="images/sodasprings-map.gif" alt="Soda Springs Map" class="preston-map">
+                <h3>Contact Info</h3>
+                <p>Southeast Idaho Happenings<br>
+                    30N 1st E<br>
+                    Preston, ID 83263</p>
 
-                 <br>
-                 <p>999-999-9999<br>
-                     seidahohappenings.org</p>
-                 <br>
+                <br>
+                <p>999-999-9999<br>
+                    seidahohappenings.org</p>
+                <br>
 
-                 <img src="images/facebook-icon.gif" alt="facebook icon" class="social-icon">
-                 <img src="images/instagram-icon.gif" alt="instagram icon" class="social-icon">
-                 <img src="images/twitter-icon.gif" alt="twitter icon" class="social-icon">
-             </div>
-             </main>
+                <img src="images/facebook-icon.gif" alt="facebook icon" class="social-icon">
+                <img src="images/instagram-icon.gif" alt="instagram icon" class="social-icon">
+                <img src="images/twitter-icon.gif" alt="twitter icon" class="social-icon">
+            </div>
+        </main>
 
-             <footer>
-                 <p>&copy;
-                     <script>
-                         document.write(new Date().getFullYear());
-                     </script> Jill Rasmussen | Nevada |
-                     <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
-                 </p>
-                 <div id="currentDate"></div>
-                 <p>Weather Information Attribution <a href="https://openweathermap.org/">openweathermap.org</a></p>
+        <footer>
+            <p>&copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Jill Rasmussen | Nevada |
+                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            </p>
+            <div id="currentDate"></div>
+            <p>Weather Information Attribution <a href="https://openweathermap.org/">openweathermap.org</a></p>
 
-             </footer>
-             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-             <script>
-                 WebFont.load({
-                     google: {
-                         families: ['Merriweather', 'Oswald']
-                     }
-                 });
-             </script>
-             <script src="js/current-date.js"></script>
-             <script src="js/toggleMenu.js"></script>
-             <script src="js/announce.js"></script>
-             <script src="js/weatherSoda.js"></script>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Merriweather', 'Oswald']
+                }
+            });
+        </script>
+        <script src="js/current-date.js"></script>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/weatherSoda.js"></script>
+        <script src="js/forecastSoda.js"></script>
+        <script src="js/windchill.js"></script>
 
-             <script src="js/windchill.js"></script>
-             <script src="js/forecastSoda.js"></script>
+</body>
 
-             </body>
-
-             </html>
-
-
-
-       
+</html>
