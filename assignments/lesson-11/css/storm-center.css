@@ -60,6 +60,7 @@ textarea {
     padding: .75rem;
     resize: none;
     color: gray;
+    border: 1px solid gray;
 
 }
 
