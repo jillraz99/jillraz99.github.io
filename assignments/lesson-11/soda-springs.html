@@ -16,143 +16,135 @@
 </head>
 
 <body>
-   
-        <header>
-            <img class="logo-image" src="images/weather-logo.gif" alt="Site Logo">
-            <div class="banner">
-                <h1>Southeast Idaho Happenings</h1>
-                <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
-            </div>
-        </header>
 
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="preston.html">Preston</a></li>
-                <li><a href="soda-springs.html" class="active">Soda Springs</a></li>
-                <li><a href="fish-haven.html">Fish Haven</a></li>
-                <li><a href="storm-center.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-        <main>
-            <h2>The Town of Soda Springs</h2>
-            <div class="town">
-                <picture>
-                    <source srcset="images/soda750.jpg" media="(min-width: 32.5em) and (max-width: 55em)">
-                    <source srcset="images/soda800.jpg" media="(min-width:55.1em)">
-                    <img src="images/soda500.jpg" alt="Soda Springs Town Picture" class="town-img">
-                </picture>
-               
-                <section class="weather-summary">
-                    <h3>Weather Summary</h3>
-                    <p>Currently: <span id="current-cond"></span></p>
-                    <p>Temperature: <span id="temperature"></span>&deg;F</p>
-                    <p>Humidity: <span id="humidity"></span>&deg;</p>
-                    <p>Wind Speed: <span id="windspeed"></span> mph</p>
-                    <p>Wind Chill: <span id='chill'></span>&deg;F
-                    </p>
-                </section>
-            </div>
-            <div class="forecast">
-                <h3>5 Day Forecast</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th id="wkday1"></th>
-                            <th id="wkday2"></th>
-                            <th id="wkday3"></th>
-                            <th id="wkday4"></th>
-                            <th id="wkday5"></th>
+    <header>
+        <img class="logo-image" src="images/weather-logo.gif" alt="Site Logo">
+        <div class="banner">
+            <h1>Southeast Idaho Happenings</h1>
+            <div class="motto">"Come enjoy what small town Idaho has to offer!"</div>
+        </div>
+    </header>
 
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src="#" alt="#" id='icon1' class="forecast-image"><br><span
-                                    id='temp1'></span>&deg;F
-                            </td>
-                            <td><img src="#" alt="#" id='icon2' class="forecast-image"><br><span
-                                    id='temp2'></span>&deg;F
-                            </td>
-                            <td><img src="#" alt="#" id='icon3' class="forecast-image"><br><span
-                                    id='temp3'></span>&deg;F
-                            </td>
-                            <td><img src="#" alt="#" id='icon4' class="forecast-image"><br><span
-                                    id='temp4'></span>&deg;F
-                            </td>
-                            <td><img src="#" alt="#" id='icon5' class="forecast-image"><br><span
-                                    id='temp5'></span>&deg;F
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html" class="active">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="storm-center.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>The Town of Soda Springs</h2>
+        <div class="town">
+            <picture>
+                <source srcset="images/soda750.jpg" media="(min-width: 32.5em) and (max-width: 55em)">
+                <source srcset="images/soda800.jpg" media="(min-width:55.1em)">
+                <img src="images/soda500.jpg" alt="Soda Springs Town Picture" class="town-img">
+            </picture>
 
-            <article class="town-article">
-                <img src="images/sstown-art-pic.jpg" alt="Local Farmers Market">
-                <h3>Local Farmer's Market</h3>
-                <p id="author">By Rasmus Jilligan</p>
-                <p>Starting this week the Farmer's Market will bring in local farmers and residents to offer their many
-                    varied goods to the public, both locals and visitors. This market will be located in the central
-                    plaza square at Main Street and 2nd Street. Market will run weekly on Saturdays until October 2nd
-                    and will run from 7am until 2pm. </p>
-                <p>Expected products for sale will include fresh produce from our local farmers, fresh flowers from
-                    local growers, jewerly, quilts, art and other crafts from local residents. Many local business will
-                    be showcasing their prominant products. This is a great way to support the community and meet new
-                    people. It is also a wonderful opportunity to try new products and for local business to attract new
-                    customers!</p>
-                <p>If you are interested in being a vendor, Please contant Debbie Schultz at 222-2222 to reserve your
-                    booth. </p>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current-cond"></span></p>
+                <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                <p>Humidity: <span id="humidity"></span>&deg;</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                <p>Wind Chill: <span id='chill'></span>&deg;F
+                </p>
+            </section>
+        </div>
+        <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <tr>
+                    <th id="wkday1"></th>
+                    <th id="wkday2"></th>
+                    <th id="wkday3"></th>
+                    <th id="wkday4"></th>
+                    <th id="wkday5"></th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td><img src="#" alt="#" id='icon1' class="forecast-image"><br><span id='temp1'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon2' class="forecast-image"><br><span id='temp2'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon3' class="forecast-image"><br><span id='temp3'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon4' class="forecast-image"><br><span id='temp4'></span>&deg;F
+                        </td>
+                        <td><img src="#" alt="#" id='icon5' class="forecast-image"><br><span id='temp5'></span>&deg;F
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-            </article>
+        <article class="town-article">
+            <img src="images/sstown-art-pic.jpg" alt="Local Farmers Market">
+            <h3>Local Farmer's Market</h3>
+            <p id="author">By Rasmus Jilligan</p>
+            <p>Starting this week the Farmer's Market will bring in local farmers and residents to offer their many
+                varied goods to the public, both locals and visitors. This market will be located in the central
+                plaza square at Main Street and 2nd Street. Market will run weekly on Saturdays until October 2nd
+                and will run from 7am until 2pm. </p>
+            <p>Expected products for sale will include fresh produce from our local farmers, fresh flowers from
+                local growers, jewerly, quilts, art and other crafts from local residents. Many local business will
+                be showcasing their prominant products. This is a great way to support the community and meet new
+                people. It is also a wonderful opportunity to try new products and for local business to attract new
+                customers!</p>
+            <p>If you are interested in being a vendor, Please contant Debbie Schultz at 222-2222 to reserve your
+                booth. </p>
 
-            <div class="events" id="soda-events"></div>
+        </article>
 
-            <div class="contact-info">
-                <img src="images/sodasprings-map.gif" alt="Soda Springs Map" class="preston-map">
-                <h3>Contact Info</h3>
-                <p>Southeast Idaho Happenings<br>
-                    30N 1st E<br>
-                    Preston, ID 83263</p>
+        <div class="events" id="soda-events"></div>
 
-                <br>
-                <p>999-999-9999<br>
-                    seidahohappenings.org</p>
-                <br>
+        <div class="contact-info">
+            <img src="images/sodasprings-map.gif" alt="Soda Springs Map" class="preston-map">
+            <h3>Contact Info</h3>
+            <p>Southeast Idaho Happenings<br>
+                30N 1st E<br>
+                Preston, ID 83263</p>
 
-                <img src="images/facebook-icon.gif" alt="facebook icon" class="social-icon">
-                <img src="images/instagram-icon.gif" alt="instagram icon" class="social-icon">
-                <img src="images/twitter-icon.gif" alt="twitter icon" class="social-icon">
-            </div>
-        </main>
+            <br>
+            <p>999-999-9999<br>
+                seidahohappenings.org</p>
+            <br>
 
-        <footer>
-            <p>&copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script> Jill Rasmussen | Nevada |
-                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
-            </p>
-            <div id="currentDate"></div>
-            <p>Weather Information Attribution <a href="https://openweathermap.org/">openweathermap.org</a></p>
+            <img src="images/facebook-icon.gif" alt="facebook icon" class="social-icon">
+            <img src="images/instagram-icon.gif" alt="instagram icon" class="social-icon">
+            <img src="images/twitter-icon.gif" alt="twitter icon" class="social-icon">
+        </div>
+    </main>
 
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Merriweather', 'Oswald']
-                }
-            });
-        </script>
-        <script src="js/current-date.js"></script>
-        <script src="js/toggleMenu.js"></script>
-        <script src="js/weatherSoda.js"></script>
-        <script src="js/forecastSoda.js"></script>
-        <script src="js/windchill.js"></script>
-        <script src="js/sodaEvents.js"></script>
+    <footer>
+        <p>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> Jill Rasmussen | Nevada |
+            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <div id="currentDate"></div>
+        <p>Weather Information Attribution <a href="https://openweathermap.org/">openweathermap.org</a></p>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Merriweather', 'Oswald']
+            }
+        });
+    </script>
+    <script src="js/current-date.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/weatherSoda.js"></script>
+    <script src="js/forecastSoda.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/sodaEvents.js"></script>
 
 </body>
 
