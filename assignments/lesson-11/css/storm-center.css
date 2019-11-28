@@ -11,11 +11,11 @@ fieldset {
 }
 
 legend {
-    color: #5E8E1a;
+    color: rgb(83, 124, 26);
     margin: 0 1rem;
     padding: 0 .5rem;
-    font-weight: bold;
-    letter-spacing: .1em;
+    
+    
 }
 
 label {
