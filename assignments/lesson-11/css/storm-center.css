@@ -15,6 +15,7 @@ legend {
     margin: 0 1rem;
     padding: 0 .5rem;
     font-weight: bold;
+    letter-spacing: .1em;
 }
 
 label {
