@@ -59,8 +59,8 @@ textarea {
     height: 150px;
     padding: .75rem;
     resize: none;
-    color: gray;
-    border: 1px solid gray;
+    color: rgb(90, 89, 89);
+    border: 1px solid rgb(90, 89, 89);
 
 }
 
