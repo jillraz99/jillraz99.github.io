@@ -175,6 +175,28 @@ article img {
     margin: 0;
 }
 
+/*Events Styles*/
+.events {
+display: block;
+width: 60%;
+padding: 1em;
+
+ background-color: #744F2D;
+ opacity: .7;
+ border: 1px solid #000;
+ padding-left: 3rem;
+ padding-right:3rem;
+ color: white;
+ margin: 2em auto;
+ line-height: 1em;
+ font-weight: bold;
+ box-shadow: 0 0 30px #fff;
+ }
+
+
+
+
+
 /*Contact Info Styles*/
 .contact-info {
     background-color: #2F303F;
