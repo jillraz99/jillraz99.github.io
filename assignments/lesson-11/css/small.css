@@ -177,21 +177,18 @@ article img {
 
 /*Events Styles*/
 .events {
-display: block;
-width: 60%;
-padding: 1em;
-
- background-color: #744F2D;
- opacity: .7;
- border: 1px solid #000;
- padding-left: 3rem;
- padding-right:3rem;
- color: white;
- margin: 2em auto;
- line-height: 1em;
- font-weight: bold;
- box-shadow: 0 0 30px #fff;
- }
+    display: block;
+    width: 60%;
+    padding: 1em;
+    background-color: #744F2D;
+    opacity: .8;
+    border: 10px solid #000;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white; 
+    margin: 2em auto;
+    line-height: 1em;
+}
 
 
 

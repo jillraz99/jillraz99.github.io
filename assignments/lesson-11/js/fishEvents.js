@@ -9,6 +9,7 @@ fetch(requestURL)
             if (towns[i].name == 'Fish Haven') {
                 let card = document.createElement('section');
                 let h3 = document.createElement('h3');
+                let line = document.createElement('hr');
                 let p1 = document.createElement('p');
                 let p2 = document.createElement('p');
                 let p3 = document.createElement('p');
@@ -19,6 +20,7 @@ fetch(requestURL)
                 p3.textContent = towns[i].events[2];
 
                 card.appendChild(h3);
+                card.appendChild(line);
                 card.appendChild(p1);
                 card.appendChild(p2);
                 card.appendChild(p3);

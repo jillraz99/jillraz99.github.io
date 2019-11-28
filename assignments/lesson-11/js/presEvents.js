@@ -8,13 +8,13 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == 'Preston') {
                 let card = document.createElement('section');
-                let line = document.createElement('hr');
                 let h3 = document.createElement('h3');
+                let line = document.createElement('hr');
                 let p1 = document.createElement('p');
                 let p2 = document.createElement('p');
                 let p3 = document.createElement('p');
 
-                h3.textContent = "Upcoming Events";       
+                h3.textContent = "Upcoming Events";
                 p1.textContent = towns[i].events[0];
                 p2.textContent = towns[i].events[1];
                 p3.textContent = towns[i].events[2];
@@ -26,7 +26,6 @@ fetch(requestURL)
                 card.appendChild(p3);
 
                 document.querySelector('#pres-events').appendChild(card);
-             
             }
         }
     });
