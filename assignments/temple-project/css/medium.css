@@ -1,0 +1,67 @@
+@media only screen and (min-width: 32.5em) {
+
+
+.logo-image {
+    width: 15em;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li, .dropdown {
+    display: block;
+    flex: 1 1 100%;
+}
+
+nav a {
+    font-size: 1rem;
+}
+
+/*Article styles*/
+article img {
+    display: block;
+    width: 46%;
+    float: right;
+    padding: 10px;
+}
+
+/*Temple Page Styles*/
+.temples-container {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+.temples-container figure:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+.weather-summary {
+display: block;
+width: 46%;
+float: right;
+padding-left: 3%;
+font-size: 14px;
+
+}
+
+/*Contact Info Styles*/
+ .office {
+     display: block;
+     float: right;
+     width: 55%;
+
+ }
+footer {
+    flex-flow: row;
+}
+
+
+}
