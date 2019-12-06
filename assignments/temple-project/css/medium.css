@@ -63,5 +63,31 @@ footer {
     flex-flow: row;
 }
 
+/*Contact Page Styles*/
+
+.mapouter {
+    
+    text-align: right;
+    height: 250px;
+    width: 350px;
+    margin-left: 2%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 250px;
+    width: 350px;
+}
+.mapouter {
+
+   
+    width: 46%;
+    float: right;
+    padding: 10px;
+}
+.contact h1, .contact h4, .contact p {
+    clear: left;
+}
 
 }
