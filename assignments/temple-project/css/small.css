@@ -187,6 +187,7 @@ article img {
 }
 
 
+
 /*Contact Info Styles*/
 .contact-info {
     background-color: #2F303F;
@@ -361,4 +362,9 @@ thead {
 
   .contact-page-form h3 {
       font-size: 2rem;
+  }
+
+  dt {
+      
+      text-decoration: underline;
   }
