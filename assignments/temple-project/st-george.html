@@ -13,11 +13,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-     <link rel="stylesheet" href="css/small.css">
-     <link rel="stylesheet" href="css/medium.css">
-     <link rel="stylesheet" href="css/large.css">
-     <link rel="stylesheet" href="css/reservations.css">
-     <link rel="stylesheet" href="css/temples.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/reservations.css">
+    <link rel="stylesheet" href="css/temples.css">
     <link rel="shortcut icon" href="images/temple-favicon.ico" type="image/x-icon">
 </head>
 
@@ -26,47 +26,54 @@
         <img class="logo-image" src="images/temple-logo.png" alt="Temple Inn & Suites Logo">
     </header>
 
-     <nav>
-         <ul class="navigation">
-             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="temples.html" id="active">Temples</a></li>
-             <li><a href="reservations.html">Reservations</a></li>
-             <div class="dropdown">
-                 <button class="dropbtn" ><a href="services.html">Services</a></button>
-                 <div class="dropdown-content">
-                     <a href="reception.html">Receptions</a>
-                     <a href="temple-missionary.html">Temple Missionaries</a></div>
-             </div>
-             <li><a href="contact.html">Contact Us</a></li>
-         </ul>
-     </nav>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html" id="active">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="services.html">Services</a></button>
+                <div class="dropdown-content">
+                    <a href="reception.html">Receptions</a>
+                    <a href="temple-missionary.html">Temple Missionaries</a></div>
+            </div>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <main>
-         <div class="temple-info">
-             
+        <div class="temple-info">
 
 
-        <h1>St. George Temple</h1>
-        <img src="images/stgeorge_temple.jpg" alt="St. George Temple image">
-         <section class="weather-summary">
-             <h3>Weather Summary</h3>
-             <p>Currently: <span id="current-cond"></span></p>
-             <p>Temperature: <span id="temperature"></span>&deg;F</p>
-             <p>Humidity: <span id="humidity"></span>&deg;</p>
-             <p>Wind Speed: <span id="windspeed"></span> mph</p>
-         </section>
+
+            <h1>St. George Temple</h1>
+            <img src="images/stgeorge_temple.jpg" alt="St. George Temple image">
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current-cond"></span></p>
+                <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                <p>Humidity: <span id="humidity"></span>&deg;</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+            </section>
 
 
-        <h4>Address</h4>
-        <p>250 East 400 South</p>
-        <p>St. George, Utah 84770-3699</p>
-        <p>United States</p>
+            <h4>Address</h4>
+            <p>250 East 400 South</p>
+            <p>St. George, Utah 84770-3699</p>
+            <p>United States</p>
 
-        <h4>Telephone</h4>
-        <p>1-435-673-3533</p>
+            <h4>Telephone</h4>
+            <p>1-435-673-3533</p>
 
-        <h4>Email</h4>
-        <p>log into your account to send email to temple</p>
+            <h4>Email</h4>
+            <p>log into your account to send email to temple</p>
+
+        </div>
+        <div class="closures">
+            <h2>Temple Closures</h2>
+            <section id="stgeorge-closures">
+            </section>
+        </div>
 
         <h2>Services</h2>
         <p>Clothing rental available</p>
@@ -77,34 +84,30 @@
         <h2>Temple Schedule</h2>
         <h4>Closed during renovations
 
-         </div>
-         <div class="closures" id="stgeorge-closures"></div>
 
-         
+            <footer>
+                <p>&copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> Jill Rasmussen | Nevada |
+                    <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+                </p>
+                <div id="currentDate"></div>
+                <a href="resources.html">Resources</a>
 
-
-        <footer>
-            <p>&copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script> Jill Rasmussen | Nevada |
-                <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
-            </p>
-            <div id="currentDate"></div>
-            <a href="resources.html">Resources</a>
-
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            WebFont.load({
-                google: {
-                    families: ['Dancing Script', 'Roboto']
-                }
-            });
-        </script>
-        <script src="js/current-date.js"></script>
-        <script src="js/toggleMenu.js"></script>
-         <script src="js/weather-summary-sg.js"></script>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>
+                WebFont.load({
+                    google: {
+                        families: ['Dancing Script', 'Roboto']
+                    }
+                });
+            </script>
+            <script src="js/current-date.js"></script>
+            <script src="js/toggleMenu.js"></script>
+            <script src="js/stgeorgeClosures.js"></script>
+            <script src="js/weather-summary-sg.js"></script>
 
 
 </body>

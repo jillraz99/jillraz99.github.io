@@ -222,6 +222,7 @@ footer {
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 50px #333;
 }
 
 .weather-summary {
@@ -234,6 +235,15 @@ footer {
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
+}
+
+.temple-info {
+    margin: 2%;
+}
+
+.closures {
+    margin-bottom: 1rem;
 }
 
 /*Reception Page Styles*/

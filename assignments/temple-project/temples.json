@@ -1,7 +1,7 @@
 {
     "temples": [
         {
-            "name": "Las Vegas Nevada Temple",
+            "name": "Las Vegas",
             "closures": [
                 "Wednesday, 1 January 2020",
                 "Monday, 6 January 2020 - Monday, 20 January 2020",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "St. George Utah Temple",
+            "name": "St. George",
             "closures": "Closed for renovation until 2022"
         },
         {
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "name": "San Diego Temple",
+            "name": "San Diego",
             "closures": [
                 "Wednesday, 1 January 2020",
                 "Monday, 16 March 2020 - Monday, 30 March 2020",

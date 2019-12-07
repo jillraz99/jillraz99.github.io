@@ -49,7 +49,16 @@ width: 46%;
 float: right;
 padding-left: 3%;
 font-size: 14px;
+}
 
+.closures {
+    display: block;
+    width: 46%;
+    float: right;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    font-size: 14px;
+    border: solid 15px #5a2666;
 }
 
 /*Contact Info Styles*/

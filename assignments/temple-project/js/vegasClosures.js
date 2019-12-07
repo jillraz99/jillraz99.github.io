@@ -5,16 +5,11 @@ fetch(requestJson)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.log(jsonObject);
+            console.log(jsonObject);
 
-        const temples = jsonObject['temples'];
-        for (let i = 0; i < temples.length; i++) {
-            let p1 = document.createElement('p');
-                
-            p1.textContent = temples[i].closures[0];
-             card.appendChild(p1);
-           
-            document.querySelector('div.closures').appendChild(card);
+            const temples = jsonObject['temples'];
+            for (let i = 0; i < temples.length; i++) {
+                         
+            document.getElementById('vegas-closures').innerHTML += temples[0].closures[i] + "<br>";
         }
-    }
-         );
+    })
