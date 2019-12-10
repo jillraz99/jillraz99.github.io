@@ -1,12 +1,10 @@
 .temples-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
 }
 
 main.temples,
 footer {
-
     max-width: 2000px;
     margin: initial;
     padding: 10px;
@@ -16,12 +14,10 @@ figure img {
     width: 100%;
 }
 
-
 .temples-container figcaption {
-   
     padding: 1em;
-
 }
- .temples-container figure:hover {
-     box-shadow: 0 0 50px #333;
- }
+
+.temples-container figure:hover {
+    box-shadow: 0 0 50px #333;
+}

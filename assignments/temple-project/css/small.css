@@ -6,20 +6,18 @@ header {
     padding: 5px;
 }
 
-
 h1,
 h2,
 h3 {
     font-family: 'Dancing Script',
         cursive;
-        margin: 2%;
-
+    margin: 2%;
 }
 
 body {
     font-family: 'Roboto',
         sans-serif;
-    size: 16px;
+    font-size: 16px;
 }
 
 main,
@@ -34,8 +32,6 @@ footer {
     margin: 2.5%;
 }
 
-
-
 h1 {
     font-size: 2rem;
     color: #5a2666;
@@ -44,13 +40,11 @@ h1 {
 h2 {
     color: #fe5f33;
     font-size: 2rem;
-
 }
 
 h3 {
     color: #fca890;
     font-size: 1.5rem;
-
 }
 
 /*Navigaion Styles*/
@@ -68,7 +62,8 @@ nav ul {
     overflow: hidden;
 }
 
-nav li a, .dropbtn {
+nav li a,
+.dropbtn {
     display: block;
     color: #fff;
     text-align: center;
@@ -100,12 +95,11 @@ nav a:hover,
     background-color: #984cac;
 }
 
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #2F303F;
-    min-width:160px;
+    min-width: 160px;
     z-index: 1;
 }
 
@@ -123,8 +117,8 @@ nav a:hover,
 
 .dropdown:hover .dropdown-content {
     display: block;
-
 }
+
 /*end of Navigation Styles*/
 
 * {
@@ -136,7 +130,6 @@ div.home {
     display: block;
     margin: 10px auto;
     margin: 2%;
-
 }
 
 .header-img {
@@ -176,8 +169,6 @@ article img {
     margin-right: auto;
 }
 
-
-
 /*Contact Info Styles*/
 .contact-info {
     background-color: #2F303F;
@@ -194,7 +185,6 @@ article img {
 .office {
     display: none;
 }
-
 
 footer {
     background-color: #c4f8ed;
@@ -279,7 +269,6 @@ footer {
     border: 2px solid #fca890;
     border-radius: 10px;
     padding: 1% 5%;
-
 }
 
 .missionaries .submit-button {
@@ -318,7 +307,6 @@ footer {
 
 thead {
     font-weight: bold;
-
 }
 
 /*Contact Page Styles*/
@@ -331,11 +319,11 @@ thead {
 }
 
 iframe {
-    border:none;
-    overflow:hidden;
-    margin:0;
-    height:250px;
-    width:350px;
+    border: none;
+    overflow: hidden;
+    margin: 0;
+    height: 250px;
+    width: 350px;
 }
 
 .contact img {
@@ -368,8 +356,6 @@ iframe {
     padding: 1% 5%;
 }
 
-
-
 .contact-page-form .submit-button {
     background-color: #fca890;
     color: black;
@@ -381,6 +367,5 @@ iframe {
 }
 
 dt {
-
     text-decoration: underline;
 }
