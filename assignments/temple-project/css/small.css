@@ -234,12 +234,13 @@ footer {
 
 /*Reception Page Styles*/
 .reception img {
-    width: 100%;
-    padding: 2%;
-}
+    width: 60%;
+    margin-left: 15%;
+   }
 
 .reception p {
-    padding: 2%;
+    padding: 0 2% 5% 2%;
+    
 }
 
 /*Temple Missionaries Page Styles*/
