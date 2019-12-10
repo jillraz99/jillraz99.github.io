@@ -47,6 +47,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+h4 {
+    margin: 2%;
+}
+
 /*Navigaion Styles*/
 nav {
     background-color: #2F303F;
@@ -218,7 +222,7 @@ footer {
     margin-top: 1rem;
 }
 
-.temple-info {
+.temple-info p, .temple-info dl {
     margin: 2%;
 }
 
