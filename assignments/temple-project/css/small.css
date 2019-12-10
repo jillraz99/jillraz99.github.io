@@ -366,6 +366,10 @@ iframe {
     font-size: 2rem;
 }
 
+.contact-page-form legend {
+    color: #fca890
+}
+
 dt {
     text-decoration: underline;
 }
