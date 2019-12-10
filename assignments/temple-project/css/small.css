@@ -330,6 +330,14 @@ thead {
     margin-right: auto;
 }
 
+iframe {
+    border:none;
+    overflow:hidden;
+    margin:0;
+    height:250px;
+    width:350px;
+}
+
 .contact img {
     width: 40%;
     padding-bottom: 2rem;
