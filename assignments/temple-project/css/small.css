@@ -12,7 +12,8 @@ h2,
 h3 {
     font-family: 'Dancing Script',
         cursive;
-    margin-left: 2%;
+        margin: 2%;
+
 }
 
 body {
@@ -67,7 +68,7 @@ nav ul {
     overflow: hidden;
 }
 
-nav li a {
+nav li a, .dropbtn {
     display: block;
     color: #fff;
     text-align: center;
@@ -93,30 +94,19 @@ nav li a {
     display: block;
 }
 
-.dropdown .dropbtn,
-.dropbtn a {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: #2F303F;
-    font-family: inherit;
-    margin: 0;
-    width: 20%;
-    text-decoration: none;
-}
-
 nav a:hover,
 .dropdown:hover,
 .dropbtn:hover {
     background-color: #984cac;
 }
 
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #2F303F;
+    min-width:160px;
+    z-index: 1;
 }
 
 .dropdown-content a {
@@ -135,7 +125,7 @@ nav a:hover,
     display: block;
 
 }
-
+/*end of Navigation Styles*/
 
 * {
     box-sizing: border-box;
@@ -243,6 +233,12 @@ footer {
 }
 
 .closures {
+    display: block;
+    width: 88%;
+    padding: 0 1rem 1.5rem 1.2rem;
+    border: solid 15px #5a2666;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 1rem;
 }
 
@@ -333,12 +329,14 @@ thead {
     margin-left: auto;
     margin-right: auto;
 }
+
 .contact img {
     width: 40%;
     padding-bottom: 2rem;
 }
 
-.contact p, .contact h4 {
+.contact p,
+.contact h4 {
     margin-left: 2%;
 }
 
@@ -348,33 +346,33 @@ thead {
     border-radius: 10px;
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
-  }
+}
 
-  .contact-page-form .top {
-      color: white;
-      font-size: 14px;
-  }
+.contact-page-form .top {
+    color: white;
+    font-size: 14px;
+}
 
-  .contact-page-form fieldset {
-      margin: 2rem 0;
-      border: 2px solid #fca890;
-      border-radius: 10px;
-      padding: 1% 5%;
-       }
+.contact-page-form fieldset {
+    margin: 2rem 0;
+    border: 2px solid #fca890;
+    border-radius: 10px;
+    padding: 1% 5%;
+}
 
-       
 
-  .contact-page-form .submit-button {
-      background-color: #fca890;
-      color: black;
-      font-weight: bold;
-  }
 
-  .contact-page-form h3 {
-      font-size: 2rem;
-  }
+.contact-page-form .submit-button {
+    background-color: #fca890;
+    color: black;
+    font-weight: bold;
+}
 
-  dt {
-      
-      text-decoration: underline;
-  }
+.contact-page-form h3 {
+    font-size: 2rem;
+}
+
+dt {
+
+    text-decoration: underline;
+}
